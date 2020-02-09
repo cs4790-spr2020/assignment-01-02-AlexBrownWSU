@@ -2,7 +2,8 @@
 
 namespace BlabberApp.Domain
 {
-    public class Class1
+    public interface IDatum
     {
+     String getSysId();   
     }
 }
