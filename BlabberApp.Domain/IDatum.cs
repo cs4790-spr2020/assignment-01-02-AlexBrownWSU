@@ -1,9 +1,9 @@
-﻿using System;
+﻿using Sys = System;
 
 namespace BlabberApp.Domain
 {
     public interface IDatum
     {
-     String getSysId();   
+     Sys.String getSysId();   
     }
 }
